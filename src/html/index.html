@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+
+  <head>
+
+    <title>`con_img` demo</title>
+    <style type="text/css">
+      h1         { margin: 0; padding: 0 0 1em 0; font-size: 150%; }
+      html, body { margin: 0; padding: 0; border: 0; }
+      body       { padding: 2em; line-height: 135%; }
+      code       { font-size: 120%; padding: 0 0.25em; background-color: #eee; }
+      kbd        { font-size: 115%; padding: 0 0.25em; background-color: #ddd; }
+    </style>
+
+    <script defer type="text/javascript" src="../../build/con_img.es5.cjs.js"></script>
+
+    <script defer type="text/javascript">
+    /* eslint-disable */
+      window.onload = () => {
+
+        window.con_img = require('con_img').image;
+
+        document.body.innerHTML = `<h1>Ready</h1><p><code>con_img</code> has now been loaded.</p><p>Please open a console and type something like</p><p><code>con_img("http://asg.animatedheroes.com/albums/fry/Fry_remote.sized.jpg");</code></p><p>Consoles are <kbd>f12</kbd> on Windows and Linux PCs, or <kbd>command-option-j</kbd> on Macs.</p>`;
+
+      }
+
+    /* eslint-enable */
+    </script>
+
+
+  </head>
+
+  <body></body>
+
+</html>
