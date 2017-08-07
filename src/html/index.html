@@ -19,6 +19,7 @@
       window.onload = () => {
 
         window.con_img = require('con_img').image;
+        window.svg_uri = require('con_img').svg_to_data_uri;
 
         document.body.innerHTML = `<h1>Ready</h1><p><code>con_img</code> has now been loaded.</p><p>Please open a console and type something like</p><p><code>con_img("http://asg.animatedheroes.com/albums/fry/Fry_remote.sized.jpg");</code></p><p>Consoles are <kbd>f12</kbd> on Windows and Linux PCs, or <kbd>command-option-j</kbd> on Macs.</p>`;
 
