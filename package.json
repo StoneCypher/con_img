@@ -1,0 +1,29 @@
+{
+  "name": "con_img",
+  "version": "0.1.0",
+  "description": "Render images in the developers' console",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StoneCypher/con_img.git"
+  },
+  "keywords": [
+    "image",
+    "console",
+    "img",
+    "developer",
+    "stonecypher",
+    "utility",
+    "con",
+    "repl"
+  ],
+  "author": "John Haugeland <stonecypher@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/StoneCypher/con_img/issues"
+  },
+  "homepage": "https://github.com/StoneCypher/con_img#readme"
+}
